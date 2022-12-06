@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"src": ["src"],
+			"config": ["src/constants"],
+			"controllers": ["src/controllers"],
+			"data-access": ["src/data-access"],
+			"database": ["src/database"],
+			"env": ["src/env"],
+			"models": ["src/models"],
+			"routes": ["src/routes"],
+			"use-cases": ["src/use-cases"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
